@@ -10,7 +10,7 @@ const answer = await inquirer.prompt([
     }
 ]);
 if (randomnumber === answer.userGuessNumber) {
-    console.log("Congratulation! you guessed right number between 1-10.");
+    console.log("Congratulation! you guessed right number.");
 }
 else {
     console.log("You guessed wrong number.");
